@@ -1,0 +1,43 @@
+section {
+  background-image: linear-gradient(to right, pink, purple);
+  width: 500px;
+
+  margin: auto;
+  border-width: 30px;
+  border-style: solid;
+  border-image: linear-gradient(to left, yellow, rgba(0, 255, 255, 0.881)) 1;
+}
+
+button {
+  width: 100px;
+  filter: contrast(60%);
+  background-image: linear-gradient(
+    to top,
+    rgb(192, 255, 211),
+    rgb(0, 81, 128)
+  );
+}
+
+.bruh {
+  background-image: url("gordon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#food-list {
+  padding: 10px 0;
+  margin: 0;
+
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
